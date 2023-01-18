@@ -39,9 +39,32 @@ public class TextEditorApplication {
                 System.out.println("This file is empty : (");
             }
             else {
+                fileout.println("<html>");
+                fileout.println("<head>");
+                fileout.println("</head>");
+                fileout.println("<body>");
+                fileout.println(line);
 
+                while(fileIn.hasNextLine()) {
+                    fileout.println("<br>");
+                    line = fileIn.nextLine();
+
+                    if (line.isEmpty()) {
+                        fileout.println("<br>");
+                    }
+                    else {
+                        fileout.println(line);
+                    }
+                }
+                fileout.println("</body>");
+                fileout.println("</html>");
+
+                System.out.println("HTML file is processed");
             }
-        } catch (FileNotFoundException e) {
+            fileIn.close();
+            fileout.close();
+        }
+        catch (FileNotFoundException e) {
             System.out.println("File not found");
         }
     }

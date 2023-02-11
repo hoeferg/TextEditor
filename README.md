@@ -3,7 +3,7 @@
 
 ## Table of Contents  
 * [Description](##Description)  
-* [Technologies](##Technologies)  
+* [Getting Started](##Setting)  
 * [Screenshot](##Screenshot)  
 * [Installation](##Installation)  
 * [License](##License)  
@@ -11,7 +11,11 @@
 
 ## Description
 
-Thisweb application is a text editior that allows a user to write what they need, save it, and download it to their computer. You can also install Jate on your device to allow use for both online and offline.
+This web application is a text editior that allows a user to write what they need, save it, and download it to their computer. You can also install Jate on your device to allow use for both online and offline.
+
+## Getting Started
+
+To get started, clone the repo, install the NPM packages and start the application. 
 
 ## Deployed Application
 
@@ -40,3 +44,5 @@ No license
 
 ## Contact
 Gayle Hoefer - [LinkedIn](https://www.linkedin.com/in/gayle-hoefer-61a2a3124/) - [Github](https://github.com/hoeferg)
+
+Project Link: [https://service-worker-bootcamp.herokuapp.com/](https://github.com/hoeferg/textEditor)
